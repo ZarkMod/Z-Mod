@@ -5,8 +5,8 @@ if PW[1] == "" then gg.alert("😡Zark Mod😡") os.exit() end
 if PW[1] =="0069" then 
  gg.toast('CREDIT Kill Hack Mod s')
 else 
- gg.alert("MADRCHOD PASWARD SHI DAAL") return end
-gg.alert("🇮🇳 😡INDIAN@ LEGION MAA CHOD DAGA TARI AGAR YA HACK LGAKAR HMRA AGAINST AYA TO BHAN KA LODA😡 🇮🇳")
+ gg.alert("Senha Incorreta") return end
+gg.alert("Zark Mod")
 local loadcode = false
 local loadcod = false
 local loadcodd = false
