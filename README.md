@@ -6,7 +6,7 @@ if PW[1] =="0069" then
  gg.toast('CREDIT Kill Hack Mod s')
 else 
  gg.alert("Senha Incorreta") return end
-gg.alert("Zark Mod")
+gg.alert("Zark Mod Menu")
 local loadcode = false
 local loadcod = false
 local loadcodd = false
