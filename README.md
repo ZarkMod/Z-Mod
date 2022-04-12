@@ -1,9 +1,9 @@
-PW = gg.prompt({'🔒 Input password: '},{[1]=''},{[1]='MR HACKER YT'})
+PW = gg.prompt({'🔒 Input password: '},{[1]=''},{[1]='Zark Mod'})
 if not PW then return
 end 
-if PW[1] == "" then gg.alert("😡 SUBSCRIBE MR HACKER YT😡") os.exit() end
-if PW[1] =="4321" then 
- gg.toast('CREDIT INDIAN@ LEGION')
+if PW[1] == "" then gg.alert("😡Zark Mod😡") os.exit() end
+if PW[1] =="0069" then 
+ gg.toast('CREDIT Kill Hack Mod s')
 else 
  gg.alert("MADRCHOD PASWARD SHI DAAL") return end
 gg.alert("🇮🇳 😡INDIAN@ LEGION MAA CHOD DAGA TARI AGAR YA HACK LGAKAR HMRA AGAINST AYA TO BHAN KA LODA😡 🇮🇳")
@@ -359,7 +359,7 @@ return
 end
 if loadcod == false then
 gg.clearResults()
--+*****************gg.setRanges(32)
+gg.setRanges(32)
 gg.searchNumber("1.70000004768", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("1.70000004768", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.addListItems((gg.getResults(10000)))
