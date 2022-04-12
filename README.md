@@ -33,13 +33,13 @@ gg.clearResults()
 gg.setRanges(qmnb[1]["memory"]) 
 gg.searchNumber(qmnb[3]["value"], qmnb[3]["type"]) 
 if gg.getResultCount() == 0 then 
-gg.toast(qmnb[2]["name"] .. "🇮🇳")
+gg.toast(qmnb[2]["name"] .. "")
 else 
 gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"]) 
 gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"]) 
 gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"]) 
 if gg.getResultCount() == 0 then 
-gg.toast(qmnb[2]["name"] .. "🇮🇳") 
+gg.toast(qmnb[2]["name"] .. "") 
 else 
 sl = gg.getResults(999999) 
 sz = gg.getResultCount() 
@@ -60,9 +60,9 @@ if pdjg == true then
 szpy = sl[i].address xgxc(szpy, qmxg) 
 xgjg = true end end 
 if xgjg == true then 
-gg.toast(qmnb[2]["name"] .. "🇮🇳" .. xgsl .. "🇮🇳") 
+gg.toast(qmnb[2]["name"] .. "" .. xgsl .. "") 
 else 
-gg.toast(qmnb[2]["name"] .. "🇮🇳") 
+gg.toast(qmnb[2]["name"] .. "") 
 end 
 end 
 end 
@@ -263,7 +263,7 @@ F = gg.alert('Olhe para o caractere branco (ajuste os gráficos do meio)', 'todo
   if F == 1 then
 qmnb = {
 {["memory"] = 32},
-{["name"] = "เปิด"},
+{["name"] = "Pronto"},
 {["value"] = 82.5, ["type"] = 16},
 {["lv"] = 15.0, ["offset"] = 4, ["type"] = 16},
 {["lv"] = 5.0, ["offset"] = 12, ["type"] = 16},
@@ -1064,7 +1064,7 @@ xqmnb(qmnb)
 end
 end
 function D3()
-F = gg.alert("🇮🇳 Tiro Rápido 🇮🇳", "X8","DESLIGADO","X4")
+F = gg.alert("Tiro Rápido", "X8","DESLIGADO","X4")
     if F == 1 then
     gg.clearResults()
     gg.setRanges(gg.REGION_CODE_APP)
@@ -2135,7 +2135,7 @@ gg["setRanges"](gg['REGION_CODE_SYS'])
 gg["searchNumber"]("1.19622647762", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
 gg["getResults"](1)
 gg["editAll"]("100", gg["TYPE_FLOAT"])
-gg["toast"]("เปิด")
+gg["toast"]("Pronto")
 end
 function G5()
   F = gg.alert("Construção Subterrânea", "V2", "Desligado", "V1")
