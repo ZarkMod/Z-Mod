@@ -452,20 +452,20 @@ function D1()
 end
 function D2()
 SN5 = gg.choice({
-"〰️┣ M4 🇮🇳 ●",
-"〰️┣ AK 🇮🇳 ●",
-"〰️┣ QBZ 🇮🇳 ●",
-"〰️┣ UZI 🇮🇳 ●",
-"〰️┣ M762 🇮🇳 ●",
-"〰️┣ BAZUCA 🇮🇳 ●",
-"〰️┣ SMG 🇮🇳 ●",
-"〰️┣ FAMAS 🇮🇳 ●",
-"〰️┣ MG4 🇮🇳 ●",
-"〰️┣ LEWIS 🇮🇳 ●",
-"〰️┣ PISTOLA PRETA 🇮🇳 ●",
-"〰️┣ SNIPER 🇮🇳 ●",
-"〰️┣ ESCOPETA 🇮🇳 ●",
-"〰️┣ CLASSE 🇮🇳     ●",
+"〰️┣ M4 ●",
+"〰️┣ AK ●",
+"〰️┣ QBZ ●",
+"〰️┣ UZI ●",
+"〰️┣ M762 ●",
+"〰️┣ BAZUCA ●",
+"〰️┣ SMG ●",
+"〰️┣ FAMAS ●",
+"〰️┣ MG4 ●",
+"〰️┣ LEWIS ●",
+"〰️┣ PISTOLA PRETA ●",
+"〰️┣ SNIPER ●",
+"〰️┣ ESCOPETA ●",
+"〰️┣ CLASSE ●",
 "Voltar",
 }, nil,"┣【 Zark Mod 】┫")
 if SN5 == 1 then
@@ -949,8 +949,8 @@ qmnb = {
 end
 function CLASSE()
 SN6 = gg.choice({
-"〰️┣RIFLE●",
-"〰️┣METRALHADORA●",
+"〰️┣RIFLE ●",
+"〰️┣METRALHADORA ●",
 "Back",
 }, nil,"┣【Zark Mod】┫")
 if SN6 == 1 then
