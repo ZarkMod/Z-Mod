@@ -108,7 +108,6 @@ if SN == 5 then AT4() end
 if SN == 6 then SAIR() end
   XGCK = -1
 end
-
 function AT()
 SN1 = gg.choice({
 "📡┣ Antena de Cabeça ●",
@@ -142,7 +141,6 @@ HOME()
 end
 XGCK = -1
 end
-
 function AT1()
 SN2 = gg.choice({
 "🔎┣ Mira 5x/10x ●",
@@ -180,7 +178,6 @@ HOME()
 end
 XGCK = -1
 end
-
 function AT2()
 SN3 = gg.choice({
 "✝️┣ Bala Mágica ●",
@@ -214,7 +211,6 @@ HOME()
 end
 XGCK = -1
 end
-
 function AT3()
 SN4 = gg.choice({
 "🤽┣ Andar na Água ●",
@@ -240,7 +236,6 @@ HOME()
 end
 XGCK = -1
 end
-
 function V1()
 gg.clearResults()
 gg.setRanges(32)
@@ -396,8 +391,7 @@ gg.getResults(100)
 gg.getResultCount()
 gg.toast("")
 gg.setVisible(false)
-end]
-
+end
 function D1()
   F = gg.alert("Mira 5x/10x ", "Zoom10X", "Zoom5X")
   if F == 1 then
