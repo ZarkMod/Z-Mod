@@ -1,12 +1,12 @@
-PW = gg.prompt({'🔒 Input password: '},{[1]=''},{[1]='ZARK MOD'})
+PW = gg.prompt({'🔒 Input password: '},{[1]=''},{[1]='MR HACKER YT'})
 if not PW then return
 end 
-if PW[1] == "" then gg.alert("😡ZARK MOD😡") os.exit() end
-if PW[1] =="0069" then 
- gg.toast('CREDIT KILL HACK MOD')
+if PW[1] == "" then gg.alert("😡 SUBSCRIBE MR HACKER YT😡") os.exit() end
+if PW[1] =="4321" then 
+ gg.toast('CREDIT INDIAN@ LEGION')
 else 
- gg.alert("CORREÇÃO DE SENHA") return end
-gg.alert("😡SENHA INCORRETA😡")
+ gg.alert("MADRCHOD PASWARD SHI DAAL") return end
+gg.alert("🇮🇳 😡INDIAN@ LEGION MAA CHOD DAGA TARI AGAR YA HACK LGAKAR HMRA AGAINST AYA TO BHAN KA LODA😡 🇮🇳")
 local loadcode = false
 local loadcod = false
 local loadcodd = false
@@ -90,8 +90,6 @@ if gg.isPackageInstalled("com.hckeam.mjgql") then
 gg.alert("⛔ ᴜɴɪɴsᴛᴀʟʟ DEGG⛔")
 os.exit()
 end
-
-
 ----------------------
 function ATT()
 SN = gg.choice({
